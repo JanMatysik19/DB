@@ -132,7 +132,7 @@ public class ControlPanel extends JPanel {
         }
 
         if(!errors.isEmpty()) {
-            JOptionPane.showMessageDialog(null, "Popełniono następujące błędy:\n" + errors, "Dodawanie nowego produktu", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Popełniono następujące błędy:\n" + errors, "Dodawanie nowej książki", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
@@ -141,7 +141,7 @@ public class ControlPanel extends JPanel {
         titleTxf.setText("");
         authorTxf.setText("");
         yearOfIssueTxf.setText("");
-        JOptionPane.showMessageDialog(null, "Pomyślnie dodany nowy produkt: " + title, "Dodawanie nowego produktu", JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, "Pomyślnie dodany nową książkę: " + title, "Dodawanie nowej książki", JOptionPane.INFORMATION_MESSAGE);
         model.set(connector.getBooks());
     }
 
