@@ -13,7 +13,7 @@ public class AddButton extends JButton {
 
     public AddButton() {
 
-        setText("Dodaj Nowy Produkt");
+        setText("Dodaj Nową książkę");
 
         setBorder(null);
 //        setContentAreaFilled(false);
